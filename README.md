@@ -29,7 +29,7 @@ Cordova is really simple to build cross platform mobile applications for any of 
 ## Installing
 1. Install dependencies: ```npm i``` or ```yarn install```
 2. Install global tools: ```npm install -g cordova```
-3. Add your cordova platform by running ```cordova platform add %PLATFORM%``` (android and more)
+3. Add your cordova platform by running ```cordova platform add %PLATFORM%``` (android and more, for android it's better with android@6.2.2)
 
 ## Usage
 - ```npm run lint[:report]``` - runs linting against src folder and **fix some of the issues**, `report` option to generate html report to `./report.html`.
